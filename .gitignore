@@ -23,6 +23,9 @@ models/*.pt
 models/*.pth
 models/*.keras
 models/*.onnx
+models/*.safetensors
+models/*.ckpt
+models/*.pkl
 !models/.gitkeep
 
 outputs/logs/*
@@ -51,6 +54,13 @@ data/quarantine/*
 
 # === Claude Code ===
 CLAUDE.md
+.claude/settings.local.json
+
+# === Node ===
+node_modules/
 
 # === Opencode ===
 AGENTS.md
+.opencode/opencode.json
+.opencode/skills/
+.opencode/plugins/
