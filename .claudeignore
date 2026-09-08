@@ -1,0 +1,11 @@
+﻿data/
+outputs/
+models/
+*.csv
+*.jpg
+*.jpeg
+*.png
+__pycache__/
+*.pyc
+.claude/
+!docs/pipeline_skripsi_sederhana.png

@@ -1,0 +1,53 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Data & model artifacts (jangan masuk git, terlalu besar) ===
+data/raw/*
+data/processed/*
+data/posters/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/posters/.gitkeep
+
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.keras
+models/*.onnx
+!models/.gitkeep
+
+outputs/logs/*
+!outputs/logs/.gitkeep
+
+# === Colab / Drive sync sisa ===
+*.ipynb.bak
+
+# === OS / Editor ===
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+Thumbs.db
+
+# === Env / secrets ===
+.env
+*.env
+config/secrets.yaml
+
+# === Graphify ===
+graphify-out/
+
+# === Quarantine images ===
+data/quarantine/*
+!data/quarantine/.gitkeep
+
+# === Claude Code ===
+CLAUDE.md
