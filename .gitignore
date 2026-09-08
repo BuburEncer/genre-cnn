@@ -51,3 +51,6 @@ data/quarantine/*
 
 # === Claude Code ===
 CLAUDE.md
+
+# === Opencode ===
+AGENTS.md
