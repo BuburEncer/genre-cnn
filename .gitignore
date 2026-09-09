@@ -14,9 +14,12 @@ env/
 data/raw/*
 data/processed/*
 data/posters/*
+data/*.zip
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/posters/.gitkeep
+# dikecualikan: metadata bersih kecil, dipakai notebook via raw GitHub di Colab
+!data/processed/clean_posters_metadata.csv
 
 models/*.h5
 models/*.pt
